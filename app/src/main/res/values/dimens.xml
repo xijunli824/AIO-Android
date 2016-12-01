@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="gd_slip_bottom_w">90dp</dimen>
+    <dimen name="gd_slip_bottom_h">30dp</dimen>
+    <dimen name="gd_playset_play_auto_h">50dp</dimen>
+    <dimen name="gd_netset_text_h">30dp</dimen>
+    <dimen name="gd_netset_netchoice_h">60dp</dimen>
+    <dimen name="gd_netset_top_h">44.7dp</dimen>
+    <dimen name="gd_netset_text_w">210dp</dimen>
+    <dimen name="gd_image_jiantou_wh">30.0dp</dimen>
+    <dimen name="gd_image_jiantou_r">30.0dp</dimen>
+    <dimen name="tvrec_img_h">50dp</dimen>
+    <dimen name="tvrec_img_w">70dp</dimen>
+    <dimen name="text_size">9.0sp</dimen>
+    <dimen name="gd_all_pading_bottom">10dp</dimen>
+    <dimen name="gd_setting_pading_rlt">10dp</dimen>
+    <dimen name="gd_one_h">50dp</dimen>
+    
+
+</resources>

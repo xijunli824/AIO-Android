@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CMA AIO</string>
+    <string name="ani_time">350</string>
+    <string name="ani_time2">700</string>
+    <string name="hello">Hello World, WelcomeActivity!</string>
+    <string name="login">Login</string>
+    <string name="login_mess">Remember password</string>
+    <string name="login_user_name_hint">Username</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_name_pwd_wrong">Invalid username or password</string>
+    <string name="login_net_wrong">Network connection failure</string>
+    <string name="contact">Contacts</string>
+    <string name="contact_info">Contact details</string>
+    <string name="setting">Settings</string>
+    <string name="set_prop">Push Center</string>
+    <string name="about">About</string>
+    <string name="help">Help</string>
+    <string name="check_app_ver">Check new version</string>
+    <string name="send">Push center</string>
+    <string name="clear">Clear cache</string>
+    <string name="clearing">Clearing caches…</string>
+    <string name="exit">Logout</string>
+    <string name="full_screen">App fullscreen</string>
+    <string name="tabhost_mess"></string>
+    <string name="app_title">Add  applications</string>
+    <string name="app_but_mes_add">Install</string>
+    <string name="app_but_mes_pause">Pause</string>
+    <string name="app_but_mes_goon">Continue</string>
+    <string name="app_but_mes_have">Installed</string>
+    <string name="app_install">Install</string>
+    <string name="app_install_ing">Installing</string>
+    <string name="app_have_install">Installed</string>
+    <string name="SendMsg_hint">Insert here…</string>
+    <string name="text_edit">Text editing</string>
+    <string name="doodle">Doodle</string>
+    <string name="contacts_add">Add to frequent contacts</string>
+    <string name="searchstr">Contacts/Applications</string>
+    <string name="back">Back</string>
+    <string name="full_screen_start">All fullscreen</string>
+    <string name="endorse">Doodle</string>
+    <string name="item_dialog_text">Choose one font color</string>
+    <string name="put_in">Sumbit</string>
+    <string name="prompt">Prompt</string>
+    <string name="start_using">Start to use</string>
+    <string name="system_app">System built-in application cannot be deleted</string>
+    <string name="not_find_app">Not found, please reinstall the application</string>
+    <string name="enter_error">Login error：JSON Error</string>
+    <string name="southeast">Southeast</string>
+    <string name="save">Save</string>
+    <string name="Signature_send">Email</string>
+    <string name="select_send_app">Select the software to send</string>
+    <string name="task">Task</string>
+    <string name="noti">Notice</string>
+    <string name="upload">Loading…</string>
+    <string name="app_search_name">Application</string>
+    <string name="reflesh_btn">Refresh</string>
+    <string name="btn_all_read">Read All </string>
+    <string name="app_details_update">Update</string>
+    <string name="confirm_ignore">Ignore</string>
+    <string name="app_install_failed">App install failed</string>
+    <!-- add begin lhy -->
+
+
+    <!-- app_search_item -->
+    <string name="uninstalled">Uninstalled</string>
+
+    <!-- dialog -->
+    <string name="confirm_ok">Confirm</string>
+    <string name="confirm_cancel">Cancel</string>
+    <string name="exit_alert">Are you sure to quit now?</string>
+    <string name="check_alert">Are you sure to update version now?</string>
+    <string name="check_isnew">The version is latest</string>
+    <string name="clear_alert">Are you sure to clear cache information now?</string>
+    <!-- dialog -->
+    <string name="text_color_black">Black</string>
+    <string name="text_color_red">Red</string>
+    <string name="text_color_white">White</string>
+    <string name="text_color_green">Green</string>
+    <string name="text_color_blue">Blue </string>
+    <string name="item_dialog_title">Select one pen color</string>
+
+    <!-- AppDetailActivity -->
+    <string name="detail_app_title">Application  details</string>
+    <string name="detail_app_type">Type：</string>
+    <string name="detail_app_version">Version：</string>
+    <string name="detail_app_author">Author：</string>
+    <string name="detail_app_btn_info">Details</string>
+    <string name="detail_app_btn_comment">Reviews</string>
+    <string name="detail_app_sum_comment">Brief  introduction：</string>
+    <string name="comment_commit_contents">Review(optional)</string>
+    <string name="comment_contents_Explain">Click star rating</string>
+    <!-- AppDetailActivity -->
+
+
+    <!-- add end -->
+    <string name="pushCenter">Push Center</string>
+    <string name="isPushMessage">Message delivery</string>
+    <string name="getAppDetailMsg">Get one piece of detailed information of App：JSON Error</string>
+    <string name="sumbit_comment_error">Sumbit Comment：JSON Error</string>
+    <string name="sumbit_comment_success">Submit the review successfully!</string>
+    <string name="sumbit_comment_fail">Fail to submit the review!</string>
+    <string name="no_data_or_data_have_error">No data or invalid data!</string>
+    <string name="load_fail">Download failure</string>
+    <string name="check_app_type">Check App version：JSON Error</string>
+    <string name="sclect_send_app">Select the software to send</string>
+    <string name="get_search_contact_or_app">Get contacts or applications：JSON Error</string>
+    <string name="search_content">Insert contents to search</string>
+    <string name="get_one_staff_detail_msg">Get one piece of detailed information of staff：JSON Error</string>
+    <string name="you_hava_one_push_msg">Receive a piece of push message</string>
+    <string name="kd_msg_push">Push message of CapitaMalls</string>
+    <string name="network_connection_fails">Network connection failure</string>
+    <string name="zh">Chinese</string>
+    <string name="en">English</string>
+    <string name="kd_app_update">application update of CapitaMalls</string>
+    <string name="kd_app_update_load">application download of CapitaMalls</string>
+    <string name="jia_hao">+</string>
+    <string name="dowloadstate_tips">Installing…</string>
+    <string name="this_app_uninstalled">Uninstalled</string>
+    <string name="this_app_update">Update</string>
+    <string name="app_has_newversion">The application has new verison,install?</string>
+    <string name="contacts_cutline"> - </string>
+    <string name="app_type_effict">effict</string>
+    <string name="app_type_office">office</string>
+    <string name="app_type_tool">tool</string>
+    <string name="app_type_other">other</string>
+    <string name="app_update_tips">Version of the software has been updated, please do update in MobileIron or AirWatch of desktop</string>
+    <string name="location_tips">If you want to get location message,please do location setting.</string>
+
+    <!-- mofdiypwd -->
+    <string name="modify_title">Set new pawwsord</string>
+    <string name="modify_old">Old password:</string>
+    <string name="modify_new">New password:</string>
+    <string name="modify_confirm">Confirm password:</string>
+    <string name="modify_tips1">Your password has expired.Please modify password.</string>
+    <string name="modify_tips2">Your account has been froze,please contact the administrator.</string>
+    <string name="modify_tips3">Your password will be expired after %s days, please go to "Settings" to modify password.</string>
+    <string name="modify_not_input">Please input all</string>
+    <string name="modify_not_same">Enter the password twice inconsistent</string>
+    <string name="modify_ok">Modify password success</string>
+    <string name="modify_fail">Modify pawwsord failed</string>
+    <string name="modify_setting">Password changing</string>
+    <string name="modify_no_contract_permit">No permission to access</string>
+    <string name="modify_cannot_same">The new password cannot be consistent with the old one.</string>
+    <string name="modify_pwd_length_error">Password should contain at least eight characters</string>
+    <string name="modify_pwd_first_login">For the first time login, please change the password.</string>
+    <string name="user_setting">Modify personal information</string>
+    <string name="modify_mb">Modify mobile</string>
+    <string name="modify_mb_ok">Modify mobile successfully</string>
+    <string name="modify_mb_fail">Failed to modify mobile</string>
+    <string name="tips_invalid_phone">Only numbers、spaces or + are allowed.</string>
+    
+    <!-- set number -->
+    <string name="open_private_number">Open my personal phone number</string>
+    <string name="open_work_number">Open my work phone number</string>
+    <string name="setting_error">Setting error</string>
+    <!-- offline login -->
+     <string name="offline_login">Offline Login</string>
+    <string name="offline_mode">Offline Model</string>
+    
+    <string name="search_input">Local Search</string>
+     <string name="add_to_native">Add to local</string>
+     
+     <string name="loading_msg">Loading...</string>
+</resources>

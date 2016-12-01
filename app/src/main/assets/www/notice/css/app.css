@@ -1,0 +1,10 @@
+html,
+body {
+    height:100%;
+    font-size:12px;
+    width:100%;
+}
+
+body {
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+}

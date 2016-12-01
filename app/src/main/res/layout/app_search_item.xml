@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/gd_netset_netchoice_h"
+    android:background="@drawable/list_chlid_press_sel"
+    android:padding="2dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/reco_img"
+        android:orientation="horizontal" >
+
+        <org.cmaaio.common.RemoteImageView
+            android:id="@+id/app_child_icon"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="10dip" />
+
+        <TextView
+            android:id="@+id/app_child_title"
+            style="@style/tv_recom_top_style"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_weight="1.0"
+            android:paddingTop="20dip"
+            android:text="appName" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_isinstall"
+        style="@style/tv_recom_top_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="10dip"
+        android:text="@string/uninstalled" />
+
+</RelativeLayout>

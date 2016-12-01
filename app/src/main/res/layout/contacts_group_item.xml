@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/gd_netset_netchoice_h"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/list_group_press_sel" >
+
+    <LinearLayout
+        android:id="@+id/linearlayout_group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/group_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingTop="10dp" />
+
+        <LinearLayout
+            android:id="@+id/layout_netset"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/gd_netset_netchoice_h"
+            android:background="@drawable/list_group_press_sel"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/contats_group_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/arrow" />
+
+            <TextView
+                android:id="@+id/item_group_text"
+                style="@style/gd_netset_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/southeast" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

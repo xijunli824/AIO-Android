@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#dcdcdc"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/head"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/top_bg" >
+
+            <EditText
+                android:id="@+id/searchbox"
+                android:layout_width="fill_parent"
+                android:layout_height="60dip"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dip"
+                android:layout_toLeftOf="@+id/btn_cancel"
+                android:drawableLeft="@drawable/search_icon_icon"
+                android:drawablePadding="5dp"
+                android:ems="10"
+                android:hint="@string/searchstr"
+                android:imeOptions="actionDone|actionSearch"
+                android:singleLine="true" >
+
+                <requestFocus />
+            </EditText>
+
+       <!--      <ImageView
+                android:id="@+id/btn_search"
+                android:layout_width="23dip"
+                android:layout_height="23dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/search_icon_icon"
+                android:scaleType="centerInside"
+                android:visibility="gone" /> -->
+
+            <TextView
+                android:id="@+id/btn_cancel"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/reflesh_button_selector"
+                android:text="@string/confirm_cancel"
+                android:textColor="#666666" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/appll"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#555555"
+                android:paddingLeft="10dip" >
+
+                <TextView
+                    android:id="@+id/app_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dip"
+                    android:gravity="center_vertical"
+                    android:text="@string/app_search_name"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5px"
+                android:background="@drawable/line_bold" />
+
+            <ListView
+                android:id="@+id/app_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="#FF414042"
+                android:dividerHeight="1px" >
+            </ListView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/contactll"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#555555"
+                android:paddingLeft="10dip" >
+
+                <TextView
+                    android:id="@+id/con_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dip"
+                    android:gravity="center_vertical"
+                    android:text="@string/contact"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5px"
+                android:background="@drawable/line_bold" />
+
+            <ListView
+                android:id="@+id/con_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="#FF414042"
+                android:dividerHeight="1px" >
+            </ListView>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

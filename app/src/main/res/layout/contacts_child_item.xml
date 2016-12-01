@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/gd_netset_netchoice_h"
+    android:background="@drawable/list_chlid_press_sel"
+    android:padding="2dp" >
+
+    <ImageView
+        android:id="@+id/contacts_child_itel_image_view"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/nosex_small" />
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/contacts_child_itel_image_view"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/contacts_child_title"
+            style="@style/tv_recom_top_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dip"
+            android:text="IWord" />
+
+        <TextView
+            android:id="@+id/contacts_child_zc"
+            style="@style/tv_t_r_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_marginRight="50dp"
+            android:text="zc"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/contacts_child_phone"
+            style="@style/tv_t_r_style"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dip"
+            android:text="word" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/contacts_child_image"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="10dip"
+        android:src="@drawable/phone_but" />
+
+</RelativeLayout>

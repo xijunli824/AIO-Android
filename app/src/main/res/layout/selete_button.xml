@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="2dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_bg"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp" >
+
+        <TextView
+            android:id="@+id/selete_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toLeftOf="@+id/selete_button"
+            android:singleLine="true"
+            android:text="@string/open_private_number"
+            android:textColor="#909090"
+            android:textSize="18sp" />
+
+        <org.cmaaio.ui.SlipButton
+            android:id="@+id/set_private_number"
+            android:layout_width="@dimen/gd_slip_bottom_w"
+            android:layout_height="@dimen/gd_slip_bottom_h"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_bg"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp" >
+
+        <TextView
+            android:id="@+id/set_private_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toLeftOf="@+id/selete_button"
+            android:singleLine="true"
+            android:text="@string/open_work_number"
+            android:textColor="#909090"
+            android:textSize="18sp" />
+
+        <org.cmaaio.ui.SlipButton
+            android:id="@+id/set_work_number"
+            android:layout_width="@dimen/gd_slip_bottom_w"
+            android:layout_height="@dimen/gd_slip_bottom_h"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp" />
+    </RelativeLayout>
+
+</LinearLayout>

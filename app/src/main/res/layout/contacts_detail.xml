@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:id="@+id/layout_detail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/more_info"
+        android:orientation="vertical"
+        android:padding="2dp"
+        android:paddingTop="10dip" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="30.0px"
+            android:background="@drawable/shape_line"
+            android:visibility="invisible" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <org.cmaaio.common.RemoteImageView
+                android:id="@+id/contact_icon"
+                android:layout_width="84dip"
+                android:layout_height="84dip"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/nosex_large" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dip"
+                android:layout_toRightOf="@+id/contact_icon"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:text="name"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/pyTitle"
+                    style="@style/tv_t_r_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:text="piny"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/userPost"
+                    style="@style/tv_t_r_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:text="userPost"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:orientation="horizontal"
+            android:paddingLeft="10dip" >
+
+            <TextView
+                android:id="@+id/address"
+                style="@style/tv_t_r_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/contact_icon"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="address"
+                android:textSize="16dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="30dip" >
+
+            <LinearLayout
+                android:id="@+id/out_Layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/gd_setting_pading_rlt"
+                android:layout_marginRight="@dimen/gd_setting_pading_rlt"
+                android:layout_marginTop="@dimen/gd_setting_pading_rlt"
+                android:background="@drawable/shape_bg"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/add_contact_to_native"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:visibility="gone"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/add_contant_bg"
+                android:text="添加到本地" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f669422f-491e-4b30-be8d-51657ef0d6b1" name="Default" comment="" />
+    <ignored path="iTrc.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/Main.js" changelist="f669422f-491e-4b30-be8d-51657ef0d6b1" time="1370255377045" ignored="false" />
+    <file path="/app.js" changelist="f669422f-491e-4b30-be8d-51657ef0d6b1" time="1370252729779" ignored="false" />
+    <file path="/Tablet.js" changelist="f669422f-491e-4b30-be8d-51657ef0d6b1" time="1370252092151" ignored="false" />
+    <file path="/Phone.js" changelist="f669422f-491e-4b30-be8d-51657ef0d6b1" time="1370251843746" ignored="false" />
+    <file path="/index.html" changelist="f669422f-491e-4b30-be8d-51657ef0d6b1" time="1370245412640" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="iTrc" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="7" selection-start="446" selection-end="446" vertical-scroll-proportion="0.102517985">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/app/view/MainTab.js" />
+        <option value="$PROJECT_DIR$/app/view/NewsCarousel.js" />
+        <option value="$PROJECT_DIR$/app/view/MainNews.js" />
+        <option value="$PROJECT_DIR$/app/view/ContentView.js" />
+        <option value="$PROJECT_DIR$/app/view/Main.js" />
+        <option value="$PROJECT_DIR$/app/view/BlockView.js" />
+        <option value="$PROJECT_DIR$/app/view/NewsTpl3.js" />
+        <option value="$PROJECT_DIR$/draftbox.json" />
+        <option value="$PROJECT_DIR$/detail.json" />
+        <option value="$PROJECT_DIR$/app/view/DetailView.js" />
+        <option value="$PROJECT_DIR$/app/controller/MainController.js" />
+        <option value="$PROJECT_DIR$/resources/css/itrack.css" />
+        <option value="$PROJECT_DIR$/app/view/NewsTpl1.js" />
+        <option value="$PROJECT_DIR$/app/view/NewsTpl2.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iNews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iNews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iNews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iNews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iNews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iNews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iNews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="web-ide.project.structure" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\apache-tomcat-6.0.35\webapps\iNews\app" />
+      <recent name="E:\apache-tomcat-6.0.35\webapps\iNews\app\view" />
+      <recent name="E:\apache-tomcat-6.0.35\webapps\iOffice\app\view" />
+      <recent name="E:\apache-tomcat-6.0.35\webapps\iTell\app\view" />
+      <recent name="E:\apache-tomcat-6.0.35\webapps\iTrc1\app\view\itell" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\apache-tomcat-6.0.35\webapps\iNews" />
+      <recent name="E:\apache-tomcat-6.0.35\webapps\iTrc1\app\view" />
+      <recent name="E:\apache-tomcat-6.0.35\webapps\iTrc1\app\view\itell" />
+      <recent name="E:\apache-tomcat-6.0.35\webapps\iTrc" />
+      <recent name="E:\apache-tomcat-6.0.35\webapps\iTrc\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f669422f-491e-4b30-be8d-51657ef0d6b1" name="Default" comment="" />
+      <created>1370244296700</created>
+      <updated>1370244296700</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="1382" height="744" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24944155" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17051378" sideWeight="0.6701031" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="11" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sdk/Custom.ux.SegmentedButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="309" selection-end="309" vertical-scroll-proportion="0.25047082" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdk/sencha-touch-all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53219" column="24" selection-start="1731759" selection-end="1731767" vertical-scroll-proportion="0.33204633" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/NewsCarousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="35" selection-start="39" selection-end="39" vertical-scroll-proportion="0.03417266" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="29" selection-start="256" selection-end="256" vertical-scroll-proportion="0.30755395" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/NewsTpl3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="165" column="0" selection-start="5659" selection-end="6064" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/BlockView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="35" selection-start="193" selection-end="193" vertical-scroll-proportion="0.23920864" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draftbox.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="33" selection-start="1594" selection-end="1594" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3501" column="0" selection-start="67291" selection-end="67338" vertical-scroll-proportion="0.62410074" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detail.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="48" selection-start="172" selection-end="172" vertical-scroll-proportion="0.20994475" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/MainController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="9" selection-start="2546" selection-end="2546" vertical-scroll-proportion="0.48741007">
+          <folding>
+            <element signature="e#2828#5213#0" expanded="false" />
+            <element signature="e#5263#7964#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="24" selection-start="136" selection-end="136" vertical-scroll-proportion="0.17992425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/NewsTpl1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="166" column="10" selection-start="5632" selection-end="5632" vertical-scroll-proportion="0.28625235">
+          <folding>
+            <element signature="e#881#1776#0" expanded="false" />
+            <marker date="1374229785251" expanded="true" signature="1070:1101" placeholder="..." />
+            <marker date="1374229785251" expanded="true" signature="1136:1266" placeholder="..." />
+            <element signature="e#1787#3349#0" expanded="false" />
+            <element signature="e#3360#4840#0" expanded="false" />
+            <element signature="e#4851#5477#0" expanded="false" />
+            <element signature="e#5488#5632#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/NewsTpl2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="135" column="10" selection-start="4656" selection-end="4656" vertical-scroll-proportion="0.2972973">
+          <folding>
+            <marker date="1374229811173" expanded="true" signature="2511:2529" placeholder="..." />
+            <marker date="1374229811173" expanded="true" signature="2511:2542" placeholder="..." />
+            <marker date="1374229811173" expanded="true" signature="2579:2709" placeholder="..." />
+            <element signature="e#3195#4655#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/DetailView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="21" selection-start="234" selection-end="244" vertical-scroll-proportion="0.06834532">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/css/itrack.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="35" selection-start="187" selection-end="187" vertical-scroll-proportion="0.30755395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="7" selection-start="446" selection-end="446" vertical-scroll-proportion="0.102517985">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

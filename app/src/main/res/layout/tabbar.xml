@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tabBarArea"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dip"
+        android:layout_alignParentBottom="true" >
+
+        <RadioGroup
+            android:id="@+id/main_tab"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:layout_gravity="bottom"
+            android:background="@drawable/maintab_toolbar_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/homeRadio"
+                style="@style/main_tab_bottom"
+                android:layout_marginTop="2.0dip"
+                android:drawableTop="@drawable/home_but" />
+
+            <RadioButton
+                android:id="@+id/contactRadio"
+                style="@style/main_tab_bottom"
+                android:layout_marginTop="2.0dip"
+                android:drawableTop="@drawable/contact_but" />
+
+            <RadioButton
+                android:id="@+id/setRadio"
+                style="@style/main_tab_bottom"
+                android:layout_marginTop="2.0dip"
+                android:drawableTop="@drawable/setting_but" />
+
+            <View
+                android:layout_width="50dip"
+                android:layout_height="1.0px"
+                android:background="@drawable/shape_line"
+                android:visibility="invisible" />
+
+            <RadioButton
+                android:id="@+id/addRadio"
+                style="@style/main_tab_other_bottom"
+                android:layout_marginTop="2.0dip"
+                android:drawableTop="@drawable/add_but" />
+
+            <RadioButton
+                android:id="@+id/drawRadio"
+                style="@style/main_tab_other_bottom"
+                android:layout_marginTop="2.0dip"
+                android:drawableTop="@drawable/toolbar_comment_but" />
+        </RadioGroup>
+    </LinearLayout>
+</RelativeLayout>

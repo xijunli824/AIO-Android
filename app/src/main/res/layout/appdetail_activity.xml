@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dip"
+        android:background="#f5f5f5"
+        android:orientation="vertical" >
+
+        <include layout="@layout/navbar" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dip" >
+
+            <org.cmaaio.common.RemoteImageView
+                android:id="@+id/appLogo"
+                android:layout_width="55dip"
+                android:layout_height="55dip"
+                android:layout_margin="10dip" />
+
+            <TextView
+                android:id="@+id/appName"
+                android:layout_width="wrap_content"
+                android:layout_height="20dip"
+                android:layout_marginTop="8dip"
+                android:layout_toRightOf="@+id/appLogo"
+                android:textColor="#777777"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/appType"
+                android:layout_width="wrap_content"
+                android:layout_height="20dip"
+                android:layout_below="@+id/appName"
+                android:layout_marginTop="8dip"
+                android:layout_toRightOf="@+id/appLogo"
+                android:text="@string/detail_app_type"
+                android:textColor="#999999"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/appTypeValue"
+                android:layout_width="wrap_content"
+                android:layout_height="20dip"
+                android:layout_below="@+id/appName"
+                android:layout_marginTop="8dip"
+                android:layout_toRightOf="@+id/appType"
+                android:textColor="#999999"
+                android:textSize="10sp" />
+
+            <RatingBar
+                android:id="@+id/appLevel"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="20dip"
+                android:layout_below="@+id/appType"
+                android:layout_toRightOf="@+id/appLogo"
+                android:numStars="5"
+                android:rating="1" />
+
+            <org.cmaaio.common.XButton
+                android:id="@+id/opBtn"
+                android:layout_width="80dip"
+                android:layout_height="45dip"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="15dip"
+                android:background="@drawable/add_btn_install_default"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/appVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="20dip"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/appLogo"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="5dip"
+                android:text="@string/detail_app_version"
+                android:textColor="#999999"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/appVerVal"
+                android:layout_width="wrap_content"
+                android:layout_height="20dip"
+                android:layout_below="@+id/appLogo"
+                android:layout_marginTop="5dip"
+                android:layout_toRightOf="@+id/appVersion"
+                android:textColor="#999999"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/appAuthorVal"
+                android:layout_width="wrap_content"
+                android:layout_height="20dip"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/appLogo"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="5dip"
+                android:textColor="#999999"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/appAuthor"
+                android:layout_width="wrap_content"
+                android:layout_height="20dip"
+                android:layout_below="@+id/appLogo"
+                android:layout_marginTop="5dip"
+                android:layout_toLeftOf="@+id/appAuthorVal"
+                android:text="@string/detail_app_author"
+                android:textColor="#999999"
+                android:textSize="12sp" />
+            <!--
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:layout_below="@+id/appVersion"
+            android:background="@drawable/shape_line" />
+            -->
+
+            <org.cmaaio.common.XProcessBar
+                android:id="@+id/downProcessBar"
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:layout_below="@+id/appVersion"
+                android:layout_marginTop="5dip" />
+
+            <LinearLayout
+                android:id="@+id/opArea"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/downProcessBar"
+                android:layout_marginTop="1dip"
+                android:background="@drawable/add_tab_detail"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:orientation="horizontal" >
+
+                <org.cmaaio.common.XButton
+                    android:id="@+id/infoBtn"
+                    android:layout_width="65dip"
+                    android:layout_height="36dip"
+                    android:layout_margin="1dip"
+                    android:layout_marginRight="20dip"
+                    android:background="@drawable/add_tab_btn_dafault"
+                    android:text="@string/detail_app_btn_info"
+                    android:textColor="#FFFFFF"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" " />
+
+                <org.cmaaio.common.XButton
+                    android:id="@+id/commentBtn"
+                    android:layout_width="65dip"
+                    android:layout_height="36dip"
+                    android:layout_marginLeft="16dip"
+                    android:background="@drawable/add_tab_btn_dafault"
+                    android:text="@string/detail_app_btn_comment"
+                    android:textColor="#FFFFFF"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <org.cmaaio.common.XScrollView
+            android:id="@+id/infoArea"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-2dip" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <cn.w.song.widget.scroll.SlidePageView
+                    android:id="@+id/appAllImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dip"
+                    android:background="#CECECE"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="250dip"
+                        android:layout_height="fill_parent"
+                        android:padding="10dip" >
+
+                        <org.cmaaio.common.RemoteImageView
+                            android:id="@+id/appImg1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="#AAAAAA"
+                            android:gravity="center" />
+                    </LinearLayout>
+                </cn.w.song.widget.scroll.SlidePageView>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-8dip"
+                    android:background="@drawable/add_bg_sawtooth"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/sumLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dip"
+                        android:text="@string/detail_app_sum_comment"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0px"
+                    android:background="@drawable/shape_line" />
+
+                <TextView
+                    android:id="@+id/appSummary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dip"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip"
+                    android:text=""
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </org.cmaaio.common.XScrollView>
+
+        <LinearLayout
+            android:id="@+id/commentArea"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-3dip" >
+
+            <ListView
+                android:id="@+id/commentList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/tabbar" />
+
+</RelativeLayout>

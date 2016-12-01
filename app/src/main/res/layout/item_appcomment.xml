@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dip"
+    android:background="#e5e5e5" >
+
+    <TextView
+        android:id="@+id/commentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dip"
+        android:text="UserName"
+        android:textColor="#999999"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/commentTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/level"
+        android:layout_marginRight="10dip"
+        android:text="2012-05-05"
+        android:textColor="#999999"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/commentDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/commentName"
+        android:layout_margin="10dip"
+        android:text="hahahahahhahahahahhahahaahaha"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <RatingBar
+        android:id="@+id/level"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="20dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dip"
+        android:numStars="5"
+        android:rating="1" />
+
+</RelativeLayout>

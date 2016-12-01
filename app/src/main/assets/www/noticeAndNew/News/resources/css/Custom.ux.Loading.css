@@ -1,0 +1,53 @@
+.x-easymi-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+    display: -webkit-box;
+    display: box;
+    -webkit-box-align: center;
+    box-align: center;
+    -webkit-box-pack: center;
+    box-pack: center;
+}
+
+.x-easymi-mask .x-easymi-mask-inner {
+    position: relative;
+    background:#5a5a5a;
+    -webkit-border-radius: 0.5em;
+    border-radius: 0.5em;
+    min-width: 0;
+    min-height: 0;
+    padding: .4em;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.x-easymi-mask .x-easymimask-success {
+    -webkit-background-origin: padding;
+    background-origin: padding;
+    padding-left: 1.5em;
+    background: url(../images/mask/success.png) no-repeat;
+    background-size:1.26em;
+}
+.x-easymi-mask .x-easymimask-failure {
+    -webkit-background-origin: padding;
+    background-origin: padding;
+    padding-left: 1.5em;
+    background: url(../images/mask/failure.png) no-repeat;
+    background-size:1.26em;
+}
+
+.x-easymi-mask .x-easymimask-loading {
+    color:#ffffff !important;
+    -webkit-background-origin: padding;
+    background-origin: padding;
+    padding-left: 1.5em;
+    background: url(../images/mask/loading.gif) no-repeat;
+    background-size:1.26em;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+<item>
+    <txt>大众计算机学习网</txt>
+    <url>www.dzwebs.net</url>
+    <color>green</color>
+</item>
+<item>
+    <txt>大众三七网</txt>
+    <url>www.dz37w.com</url>
+    <color>blue</color>
+</item>
+　　<item>
+    <txt>第三条信息</txt>
+    <url>第三条信息的网址</url>
+    <color>Red</color>
+</item>
+<item>
+    <txt>第四条信息</txt>
+    <url>第四条信息的网址</url>
+    <color>green</color>
+</item>
+</root>

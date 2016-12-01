@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/head"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/top_bg" >
+
+            <!-- add by shrimp at 20130625 -->
+
+            <org.cmaaio.common.XButton
+                android:id="@+id/backBtn"
+                android:layout_width="60dip"
+                android:layout_height="40dip"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip"
+                android:background="@drawable/back_button_selector"
+                android:text="@string/back" />
+
+            <TextView
+                android:id="@+id/nav_title"
+                style="@style/gd_netset_text_title"
+                android:layout_width="@dimen/gd_netset_text_w"
+                android:layout_height="@dimen/gd_netset_text_h"
+                android:layout_centerInParent="true"
+                android:ellipsize="marquee"
+                android:gravity="center_vertical|center_horizontal|center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:text="" />
+
+            <org.cmaaio.common.XButton
+                android:id="@+id/rightBtn"
+                android:layout_width="60dip"
+                android:layout_height="40dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/add_icon_comment"
+                android:scaleX="0.6"
+                android:scaleY="0.8"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

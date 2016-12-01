@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 黑色 -->
+    <color name="black">#000000</color>
+    <!-- 白色 -->
+    <color name="white">#ffffff</color>
+    <color name="more_info">#EFF1F3</color>
+    <color name="list_up">#F5F5F5</color>
+    <color name="list_down">#ffffff</color>
+    <color name="list_line">#00414042</color>
+    <color name="gary">#909090</color>
+    <color name="clear">#9000</color> 
+    <color name="list_sel_more">#EFF1F3</color>
+    
+</resources>

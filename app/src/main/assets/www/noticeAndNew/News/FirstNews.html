@@ -1,0 +1,104 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+    <div id="areaforNewsAndNotice" style="width:auto; height:auto; position:relative;margin:-12px -7px -8px -7px; ">
+       <div style="width:100%; height:127px; position:absolute;">
+           <img src="resources/images/001.png" style="width:100%; height:100%;">
+        </div>
+        <div style="width:100%; height:72px;  position:absolute; position:relative; border-top:1px solid #ccc; top:127px; ">
+            <div style="width:50%; height:72px; position:absolute; ">
+              <!-- <img src="resources/images/003.png" style="width:100%; height:100%; ">-->
+                <p style=" padding-left:10px; margin-top:10px; font-size:16px;font-family:Arial,Verdana,Sans-serif;color:#01428f;word-wrap:break-word;">Building People to Build for People</p>
+            </div>
+            <div style="width:50%; height:72px; position:absolute; left:50%;border-left:1px solid #ccc;">
+                 <!--<img src="resources/images/022.png" style="width:99.5%; height:100%;border-left:1px solid #ccc;">-->
+                <p style=" padding-left:10px; margin-top:10px; font-size:16px;font-family:Arial,Verdana,Sans-serif; color:#01428f;word-wrap:break-word;">Building for People to Build People</p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="sdk/cordova.ios.js"></script>
+    <script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>
+
+    <script type="text/javascript" >
+        window.onload = function() {
+            localStorage.setItem("serverUrl","https://maio.capitaretail.com.cn");
+            //localStorage.setItem("serverUrl","https://10.164.2.58");
+            
+//            getFirstNewsAndNotice();
+        };
+
+        function getFirstNewsAndNotice(){
+           var serverUrl=localStorage.getItem("serverUrl");
+            var tokenkey=localStorage.getItem("tokenkey");
+         //$.mobile.showPageLoadingMsg('a', "Please wait..." );
+            $.ajax({
+                   url:serverUrl+"/api/GetBulletinAndNewsList",
+                   type:"POST",
+                   data:{"startpage":"1","perpage":"2","tokenkey":"R3TWGNeql8k3bamyXzhURhwbbIxi6z56"},
+                   dataType:"json",
+                   success:function(newsAndNotice){
+                	
+                   areaforNewsAndNotice =$("#areaforNewsAndNotice");
+                   var serverURL=newsAndNotice[0].photoUrl;
+                   var newsObj=newsAndNotice[0].NewsList;
+                   var noticeObj=newsAndNotice[0].BulletinList;
+                  // document.getElementById( "noticeTitle" ).innerHTML=noticeObj[0].Title;
+                   //$("#noticeTitle").innerText=noticeObj[0].Title;
+                   //$("#noticeTime").innerText=changeDateforChinese(noticeObj[0].PublishTime);
+                   var htmlString="";
+                  /*  htmlString=htmlString+"<div style=\"width:100%; height:113px; position:absolute; background:#063;\">";
+                   htmlString=htmlString+"<p style=\"color:white; margin-top:1px; font-size:30px;\">"+noticeObj[0].Title+"</p>";
+                   htmlString=htmlString+"<p style=\"position:absolute; top:60px;left:5px;color:white; font-size:12px;\">"+changeDateforChinese(noticeObj[0].PublishTime)+"</p>";
+                   htmlString=htmlString+"<p style=\"position:absolute; top:80px;left:5px;color:white; font-size:12px;\">"+noticeObj[0].Publisher+"</p>";
+                   htmlString=htmlString+"</div>";
+                   htmlString=htmlString+"<div style=\"width:100%; height:65px;  position:absolute; position:relative; top:118px;border-bottom:1px solid #333; \">";
+                   htmlString=htmlString+"<div style=\"width:50%; height:65px; position:absolute; \">";
+                   htmlString=htmlString+"<p style=\" padding-right:5px; margin-top:-1px; font-size:15px;\">"+newsObj[0].Title+"</p>";
+                   htmlString=htmlString+"<p style=\"margin-top:-18px;color:#999; font-size:12px;\">"+changeDateforChinese(newsObj[0].PublishTime)+"</p></div>";
+                   htmlString=htmlString+" <div style=\"width:50%; height:65px; position:absolute; left:50%; border-left:1px solid black;\">"; 
+                   htmlString=htmlString+"<p style=\" padding-left:5px; margin-top:-1px; font-size:15px;\">"+newsObj[1].Title+"</p>";
+                   htmlString=htmlString+"<p style=\"margin-top:-18px;padding-left:5px;color:#999; font-size:12px;\">"+changeDateforChinese(newsObj[1].PublishTime)+"</p>";
+                   htmlString=htmlString+"</div></div>"; */
+                   htmlString=htmlString+"<div style=\"width:100%; height:125px; position:absolute; background-image:url(resources/images/pic_banner.png);\">";
+                   htmlString=htmlString+"<p style=\"padding-left:10px; color:white; margin-top:5px; font-size:30px;\">"+noticeObj[0].Title+"</p>";
+                   htmlString=htmlString+"<p style=\"position:absolute; top:60px;left:10px;color:white; font-size:13px;\"><img src=\"img/icon_date.png\" style=\"width:11px;height:11px;\"/>"+changeDateforChinese(noticeObj[0].PublishTime)+"</p>";
+                   htmlString=htmlString+"<p style=\"position:absolute; top:80px;left:10px;color:white; font-size:12px;\" >"+noticeObj[0].Publisher+"</p>";
+                   htmlString=htmlString+"</div>";
+                   htmlString=htmlString+"<div style=\"width:100%; height:65px;  position:absolute; position:relative; top:128px; \">";
+                   htmlString=htmlString+"<div style=\"width:50%; height:65px; position:absolute; background-image:url(resources/images/pic_banner.png);\">";
+                   htmlString=htmlString+"<p style=\"padding-left:10px; padding-right:5px; margin-top:-1px; font-size:15px;\">"+newsObj[0].Title+"</p>";
+                   htmlString=htmlString+"<p style=\" padding-left:10px; margin-top:-10px;color:#999; font-size:13px;\"><img src=\"img/icon_date.png\" style=\"width:11px;height:11px;\"/>"+changeDateforChinese(newsObj[0].PublishTime)+"</p></div>";
+                  htmlString=htmlString+" <div style=\"width:50%; height:65px; position:absolute; left:50%; border-left:1px solid #ccc;background-image:url(resources/images/pic_banner.png);\">";
+                   htmlString=htmlString+"<p style=\" padding-left:10px; margin-top:-1px; font-size:15px;\">"+newsObj[1].Title+"</p>";
+                   htmlString=htmlString+"<p style=\"margin-top:-10px;padding-left:10px;color:#999; font-size:13px;\"><img src=\"img/icon_date.png\" style=\"width:11px;height:11px;\"/>"+changeDateforChinese(newsObj[1].PublishTime)+"</p>";
+                   htmlString=htmlString+"</div></div>";
+                //   areaforNewsAndNotice.append(htmlString);
+                 // $.mobile.hidePageLoadingMsg();
+                   },
+                   error: function(xhr,textStatus,errMsg) {
+                  alert(textStatus);
+                   }
+                   
+                   });
+        }
+        
+        function changeDateforChinese(date){
+            var datestr=date.split(" ");
+            var date=datestr[0].split("/");
+            var year=date[0];
+            var month=date[1];
+            var day=date[2];
+            return year+"年"+month+"月"+day+"日";
+        
+        }
+
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,90 @@
+.x-body{
+    /*font-family: "微软雅黑";*/
+}
+a:link{
+    text-decoration: none;
+}
+.x-innerhtml{
+    text-shadow:none !important;
+    color:black !important;
+    font-weight: normal !important;
+}
+.tplCls{
+    background-color:#ffffff !important;
+}
+.tplCls .lineCls{
+    font-weight: normal;
+    font-size: 15px;
+    border-top: 1px solid #b2b2b2 !important;
+}
+.lineCls .blockCls{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+.lineCls .blockCls:last-child{
+    border-left: 1px solid #b2b2b2 !important;
+}
+.itemTitle{
+    width: 100%;
+	color:#000000;
+	height:50px !important;
+	font-size:.9em;
+    height: auto;
+}
+.itemTime{
+    width: 100%;
+	font-size:11px;
+	margin-top:15px !important;
+	color:#676767;
+    height: auto;
+}
+.line1Cls{
+	font-size:13px;
+	color:#ffffff;
+}
+.titleCls{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 30px;
+    text-align: center;
+    border-bottom: 1px solid #cccccc;
+}
+.contentCls{
+    padding: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 30px;
+    word-break : break-all;
+}
+/*custom toolbar*/
+.customToolBar{
+    background-image: url(../images/top_bg.png) !important;
+    -webkit-background-size: 100% !important;
+    background-color: transparent !important;
+    border-bottom: .1px solid #b2b2b2 !important;
+    font-size:0.9em !important;
+}
+.customToolBar .textBtn{
+    padding:0px !important;
+    height:35px !important;
+    line-height: 35px !important;
+    border: .1em solid #969696 !important
+}
+.customToolBar .x-button-label{
+    font-size: 0.9em !important;
+    color: #b2b2b2 !important;
+}
+/*end*/
+/*end*/
+/*all btn style*/
+.backBtnCls{
+	border:1px solid #cccccc !important;
+}
+.backBtnCls .x-button-label{
+    color:gray !important;
+    font-size: 15px !important;
+}
+/*end*/

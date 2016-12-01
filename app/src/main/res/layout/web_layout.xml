@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:id="@+id/web_layout_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/head"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/top_bg" >
+
+            <org.cmaaio.common.XButton
+                android:id="@+id/backBtn_web_view"
+                android:layout_width="50dip"
+                android:layout_height="40dip"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip"
+                android:background="@drawable/btn_top_normal"
+                android:text="@string/back" />
+
+            <TextView
+                android:id="@+id/web_view_layout_title"
+                style="@style/gd_netset_text_title"
+                android:layout_width="@dimen/gd_netset_text_w"
+                android:layout_height="@dimen/gd_netset_text_h"
+                android:layout_centerInParent="true"
+                android:ellipsize="marquee"
+                android:gravity="center_vertical|center_horizontal|center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:text="" />
+
+            <ImageButton
+                android:id="@+id/preBtn_web_view"
+                android:layout_width="18dip"
+                android:layout_height="18dip"
+                android:layout_alignBaseline="@+id/backBtn_web_view"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="58dp"
+                android:background="@drawable/web_view_pre_btn_selector" />
+
+            <ImageButton
+                android:id="@+id/nextBtn_web_view"
+                android:layout_width="18dip"
+                android:layout_height="18dip"
+                android:layout_alignBaseline="@+id/backBtn_web_view"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dip"
+                android:background="@drawable/web_view_next_btn_selector" />
+        </RelativeLayout>
+
+        <WebView
+            android:id="@+id/web_view_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="@null" >
+        </WebView>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/web_view_bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/tabbar" />
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_chlid_press_sel"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/item_fulle_screen_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/gd_netset_netchoice_h"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="20dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <org.cmaaio.common.RemoteImageView
+            android:id="@+id/item_full_screen_app_icon"
+            android:layout_width="@dimen/gd_playset_play_auto_h"
+            android:layout_height="@dimen/gd_playset_play_auto_h"
+            android:src="@drawable/icon_task" />
+
+        <TextView
+            android:id="@+id/item_full_screen_app_name"
+            style="@style/gd_netset_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="1.0"
+            android:text="" />
+        
+
+        <org.cmaaio.ui.SlipButton
+            android:id="@+id/item_full_screen_slip_btn"
+            android:layout_width="@dimen/gd_slip_bottom_w"
+            android:layout_height="@dimen/gd_slip_bottom_h"
+            android:gravity="center_vertical" />
+    </LinearLayout>
+
+</LinearLayout>

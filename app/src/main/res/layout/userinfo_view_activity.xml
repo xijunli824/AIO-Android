@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <RelativeLayout
+        android:id="@+id/head"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_bg" >
+
+        <Button
+            android:id="@+id/backib"
+            android:layout_width="60dip"
+            android:layout_height="40dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/reflesh_button_selector"
+            android:text="@string/back" />
+
+        <TextView
+            android:id="@+id/contact_title"
+            style="@style/gd_netset_text_title"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/gd_netset_text_h"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:text="@string/contact" />
+
+        <org.cmaaio.common.XButton
+            android:id="@+id/btn_reflesh"
+            android:layout_width="60dip"
+            android:layout_height="40dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="5dip"
+            android:background="@drawable/reflesh_button_selector"
+            android:text="@string/reflesh_btn"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/btl"
+        android:layout_below="@+id/head"
+        android:fillViewport="true"
+        android:background="@color/more_info" >
+
+        <LinearLayout
+            android:id="@+id/layout_center"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingBottom="30dp" >
+
+            <include layout="@layout/contacts_detail" />
+
+            <include
+                layout="@layout/selete_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/gd_setting_pading_rlt"
+                android:layout_marginRight="@dimen/gd_setting_pading_rlt"
+                android:layout_marginTop="@dimen/gd_setting_pading_rlt" />
+        </LinearLayout>
+    </ScrollView>
+
+    <include
+        android:id="@+id/btl"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        layout="@layout/tabbar" />
+
+</RelativeLayout>

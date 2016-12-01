@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="0dip"
+        android:background="#ffffff" >
+
+        <include
+            android:id="@+id/navBar"
+            layout="@layout/endorse_navbar" />
+
+        <FrameLayout
+            android:id="@+id/layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/navBar"
+            android:layout_marginBottom="50dp"
+            android:background="#ffffff" >
+
+            <org.cmaaio.activity.TouchView
+                android:id="@+id/touch"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#FFFFFF" >
+            </org.cmaaio.activity.TouchView>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="55dip"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/comment_toolbar_bg"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/main_undo"
+                android:layout_width="40dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="5dip"
+                android:layout_marginLeft="8dip"
+                android:layout_marginRight="8dip"
+                android:layout_marginTop="5dip"
+                android:layout_weight="1"
+                android:background="@drawable/add_toolbar_del_button_selector" />
+
+            <Button
+                android:id="@+id/main_clear"
+                android:layout_width="40dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="5dip"
+                android:layout_marginLeft="8dip"
+                android:layout_marginRight="8dip"
+                android:layout_marginTop="5dip"
+                android:layout_weight="1"
+                android:background="@drawable/add_toolbar_previous_button_selector" />
+
+            <Button
+                android:id="@+id/txt"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="5dip"
+                android:layout_marginLeft="8dip"
+                android:layout_marginTop="5dip"
+                android:layout_weight="1"
+                android:background="@drawable/add_toolbar_text_button_selector" />
+
+            <Button
+                android:id="@+id/main_color"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="5dip"
+                android:layout_marginRight="8dip"
+                android:layout_marginTop="5dip"
+                android:layout_weight="1"
+                android:background="@drawable/add_toolbar_color_button_selector" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

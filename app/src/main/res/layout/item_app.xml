@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_chlid_press_sel" >
+
+    <org.cmaaio.common.RemoteImageView
+        android:id="@+id/reco_img"
+        android:layout_width="60dip"
+        android:layout_height="60dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dip"
+        android:scaleType="centerInside" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/reco_img"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/app_title"
+            style="@style/tv_recom_top_style"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="IWord" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="5.0px"
+            android:background="@drawable/shape_line"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/app_info"
+            style="@style/tv_t_r_style"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="word" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="5.0px"
+            android:background="@drawable/shape_line"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="3dp"
+            android:orientation="horizontal" >
+
+            <RatingBar
+                android:id="@+id/waitLevel"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dip"
+                android:numStars="5"
+                android:rating="1" />
+
+
+            <TextView
+                android:id="@+id/app_size"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="1.5M"
+                android:textColor="@color/black"
+                android:textSize="12dip" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/app_but"
+        android:layout_width="65dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/btn_add_default"
+        android:focusable="false"
+        android:text="@string/app_but_mes_add"
+        android:textColor="#000000" />
+    <org.cmaaio.common.XProcessBar
+    	android:id="@+id/downProcessBar"
+    	android:layout_below="@+id/reco_img"
+    	android:layout_width="match_parent"
+    	android:layout_height="5dip"
+    	android:layout_marginLeft="10dip"
+    	android:layout_marginRight="10dip"
+    	android:layout_marginTop="5dip" />
+
+    <View
+    	android:layout_below="@+id/downProcessBar"
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+    	android:layout_marginTop="2dip"
+        android:background="@drawable/shape_line" /> 
+
+</RelativeLayout>

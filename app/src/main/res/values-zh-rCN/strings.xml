@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CMA AIO</string>
+    <string name="ani_time">350</string>
+    <string name="ani_time2">700</string>
+    <string name="hello">Hello World, WelcomeActivity!</string>
+    <string name="login">登&#160;&#160;&#160;&#160;录</string>
+    <string name="login_mess">记住密码</string>
+    <string name="login_user_name_hint">请输入您的账号</string>
+    <string name="login_password_hint">请输入您的密码</string>
+    <string name="login_name_pwd_wrong">用户名或密码不正确</string>
+    <string name="login_net_wrong">网络连接失败</string>
+    <string name="contact">通讯录</string>
+    <string name="contact_info">联系人详情</string>
+    <string name="setting">设置</string>
+    <string name="set_prop">推送中心</string>
+    <string name="about">关于</string>
+    <string name="help">帮助</string>
+    <string name="check_app_ver">检查新版本</string>
+    <string name="send">推送中心</string>
+    <string name="clear">清空缓存</string>
+    <string name="clearing">清空缓存中…</string>
+    <string name="exit">注销</string>
+    <string name="full_screen">程序全屏</string>
+    <string name="tabhost_mess"></string>
+    <string name="app_title">应用添加</string>
+    <string name="app_but_mes_add">安装</string>
+    <string name="app_but_mes_pause">暂停</string>
+    <string name="app_but_mes_goon">继续</string>
+    <string name="app_but_mes_have">已安装</string>
+    <string name="app_install">安装</string>
+    <string name="app_install_ing">正在安装</string>
+    <string name="app_have_install">已安装</string>
+    <string name="SendMsg_hint">在这里输入…</string>
+    <string name="text_edit">文本编辑</string>
+    <string name="doodle">批注</string>
+    <string name="contacts_add">添加到常用联系人</string>
+    <string name="searchstr">联系人/应用程序</string>
+    <string name="back">返回</string>
+    <string name="full_screen_start">全部全屏</string>
+    <string name="endorse">批注</string>
+    <string name="item_dialog_text">请选择文字颜色</string>
+    <string name="put_in">提交</string>
+    <string name="prompt">提示</string>
+    <string name="start_using">开始使用</string>
+    <string name="system_app">系统内置应用无法删除</string>
+    <string name="not_find_app">找不到该应用请重新安装</string>
+    <string name="enter_error">登录出错：JSON Error</string>
+    <string name="southeast">东南</string>
+    <string name="save">保存</string>
+    <string name="Signature_send">邮件</string>
+    <string name="select_send_app">请选择发送软件</string>
+    <string name="task">任务</string>
+    <string name="noti">通知</string>
+    <string name="upload">加载中…</string>
+    <string name="app_search_name">应用程序</string>
+    <string name="reflesh_btn">刷新</string>
+    <string name="btn_all_read">全部已读</string>
+    <string name="app_install_failed">应用安装失败</string>
+    <!-- add begin lhy -->
+
+
+    <!-- app_search_item -->
+    <string name="uninstalled">未安装</string>
+
+    <!-- dialog -->
+    <string name="confirm_ok">确定</string>
+    <string name="confirm_cancel">取消</string>
+    <string name="confirm_ignore">忽略</string>
+    <string name="exit_alert">您确定退出？</string>
+    <string name="check_alert">您确定更新版本？</string>
+    <string name="check_isnew">此版本为最新版本</string>
+    <string name="clear_alert">确定清除缓存信息？</string>
+    <!-- dialog -->
+    <string name="text_color_black">黑色</string>
+    <string name="text_color_red">红色</string>
+    <string name="text_color_white">白色</string>
+    <string name="text_color_green">绿色</string>
+    <string name="text_color_blue">蓝色 </string>
+    <string name="item_dialog_title">请选择画笔颜色</string>
+
+    <!-- AppDetailActivity -->
+    <string name="detail_app_title">应用详情</string>
+    <string name="add_app_version"> 版本:</string>
+    <string name="detail_app_type">类型：</string>
+    <string name="detail_app_version">版本：</string>
+    <string name="detail_app_author">作者：</string>
+    <string name="detail_app_btn_info">详情</string>
+    <string name="detail_app_btn_comment">评 论</string>
+    <string name="detail_app_sum_comment">简介：</string>
+    <string name="comment_commit_contents">评论(可不填)</string>
+    <string name="comment_contents_Explain">点击星级评分</string>
+    <!-- AppDetailActivity -->
+
+
+    <!-- add end -->
+    <string name="pushCenter">推送中心</string>
+    <string name="isPushMessage">是否启用消息推送</string>
+    <string name="getAppDetailMsg">获取单条App的详细信息：JSON Error</string>
+    <string name="sumbit_comment_error">提交评论：JSON Error</string>
+    <string name="sumbit_comment_success">提交评论成功！</string>
+    <string name="sumbit_comment_fail">提交评论失败！</string>
+    <string name="no_data_or_data_have_error">没有数据或是数据有误！</string>
+    <string name="load_fail">下载失败</string>
+    <string name="check_app_type">检查 App版本：JSON Error</string>
+    <string name="sclect_send_app">请选择发送软件</string>
+    <string name="get_search_contact_or_app">获取搜索联系人或应用程序：JSON Error</string>
+    <string name="search_content">请输入要搜索的内容</string>
+    <string name="get_one_staff_detail_msg">获取一条员工详细信息：JSON Error</string>
+    <string name="you_hava_one_push_msg">您有一条推送消息</string>
+    <string name="kd_msg_push">凯德消息推送</string>
+    <string name="network_connection_fails">网络连接失败</string>
+    <string name="zh">中文</string>
+    <string name="en">英文</string>
+    <string name="kd_app_update">凯德应用更新</string>
+    <string name="kd_app_update_load">凯德应用更新下载</string>
+    <string name="jia_hao">+</string>
+    <string name="dowloadstate_tips">安装中…</string>
+    <string name="this_app_uninstalled">该应用未安装</string>
+    <string name="this_app_update">更新</string>
+    <string name="app_has_newversion">检测到新版本,是否升级?</string>
+    <string name="contacts_cutline"> - </string>
+    <string name="app_type_effict">效率</string>
+    <string name="app_type_office">办公</string>
+    <string name="app_type_tool">工具</string>
+    <string name="app_type_other">其他</string>
+    <string name="app_update_tips">已有更新的软件版本，请在桌面的MobileIron或AirWatch中进行更新</string>
+    <string name="location_tips">想获取定位信息,请开启网络或者GPS定位.</string>
+
+    <!-- mofdiypwd -->
+    <string name="modify_title">设置新密码</string>
+    <string name="modify_old">旧密码:</string>
+    <string name="modify_new">新密码:</string>
+    <string name="modify_confirm">确认密码:</string>
+    <string name="modify_tips1">您的密码过期，请修改密码.</string>
+    <string name="modify_tips2">您的账号临时被冻结,请联系管理员.</string>
+    <string name="modify_tips3">您的密码还有%s天过期，请到"设置"修改密码.</string>
+    <string name="modify_not_input">请输入完整</string>
+    <string name="modify_not_same">两次密码输入不一致</string>
+    <string name="modify_ok">修改密码成功</string>
+    <string name="modify_fail">修改密码失败</string>
+    <string name="modify_setting">密码修改</string>
+    <string name="modify_no_contract_permit">无权限访问</string>
+    <string name="modify_cannot_same">新旧密码不能一样</string>
+    <string name="modify_pwd_length_error">密码长度至少为8位</string>
+    <string name="modify_pwd_first_login">您是第一次登录,请修改密码.</string>
+    <string name="user_setting">个人信息修改</string>
+    <string name="modify_mb">修改手机</string>
+    <string name="modify_mb_ok">修改成功</string>
+    <string name="modify_mb_fail">修改失败</string>
+    <string name="tips_invalid_phone">只能输入数字、空格、+</string>
+
+    <!-- 设置号码是否公开 -->
+    <string name="open_private_number">公开个人电话号码</string>
+    <string name="open_work_number">公开工作电话号码</string>
+    <string name="setting_error">设置失败</string>
+
+    <!-- 离线登陆 -->
+    <string name="offline_login">离线登陆</string>
+    <string name="offline_mode">离线模式</string>
+    <string name="search_input">本地搜索</string>
+    <string name="add_to_native">添加至本地</string>
+
+    <!-- 加载框 -->
+    <string name="loading_msg">加载中...</string>
+
+</resources>

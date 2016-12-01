@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_bg" >
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="109dip"
+            android:layout_height="50dip"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="5dip"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/capitamalls_logo"
+            android:scaleType="centerInside" />
+
+        <ImageView
+            android:id="@+id/weather_image"
+            android:layout_width="55dip"
+            android:layout_height="35dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dip"
+            android:layout_marginTop="5dip"
+            android:layout_toRightOf="@+id/logo"
+            android:scaleType="fitCenter"
+             />
+<!-- android:src="@drawable/weather_iocn_cloud" -->
+        <TextView
+            android:id="@+id/temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/weather_image"
+            android:text=""
+            android:textColor="#4FAEE5"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="2dp"
+            android:layout_height="62dp"
+            android:layout_marginRight="10dip"
+            android:layout_toLeftOf="@+id/search"
+            android:background="@drawable/top_line"
+            android:scaleType="centerInside" />
+
+        <org.cmaaio.common.XButton
+            android:id="@+id/search"
+            android:layout_width="26dip"
+            android:layout_height="26dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/search_icon_home_top"
+            android:padding="5dip" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/news"
+        android:layout_width="fill_parent"
+        android:layout_height="200dip"
+        android:layout_below="@+id/top"
+        android:visibility="visible" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <org.cmaaio.common.PGapView
+                android:id="@+id/newsWebView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                layout="@layout/webview_loading" />
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="10dip"
+            android:layout_alignParentBottom="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/main_app_line" />
+    </RelativeLayout>
+
+    <org.cmaaio.view.laucher.ScrollLayout
+        android:id="@+id/views"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/layout_position"
+        android:layout_below="@+id/news" />
+
+    <LinearLayout
+        android:id="@+id/layout_position"
+        android:layout_width="fill_parent"
+        android:layout_height="20dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="65dip"
+        android:gravity="center"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/dels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65dip"
+        android:background="@drawable/settings_icon_remove"
+        android:visibility="gone" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/tabbar" />
+
+</RelativeLayout>

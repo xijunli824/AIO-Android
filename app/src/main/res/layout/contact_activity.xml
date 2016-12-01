@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/btl"
+        android:background="@color/list_down"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/head"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/top_bg" >
+
+            <!-- add by shrimp at 20130624 -->
+
+            <Button
+                android:id="@+id/backib"
+                android:layout_width="60dip"
+                android:layout_height="40dip"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip"
+                android:background="@drawable/reflesh_button_selector"
+                android:text="@string/back" />
+
+            <TextView
+                android:id="@+id/contact_title"
+                style="@style/gd_netset_text_title"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/gd_netset_text_h"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/backib"
+                android:layout_toLeftOf="@+id/btn_reflesh"
+                android:layout_marginLeft="5dp"
+                
+                android:ellipsize="end"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:text="@string/contact" />
+
+            <org.cmaaio.common.XButton
+                android:id="@+id/btn_reflesh"
+                android:layout_width="60dip"
+                android:layout_height="40dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="5dip"
+                android:background="@drawable/reflesh_button_selector"
+                android:text="@string/reflesh_btn"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/search_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="36dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/search_input" >
+
+            <ImageView
+                android:id="@+id/search_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/search_inco" />
+
+            <EditText
+                android:id="@+id/contact_search_ET"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="6dp"
+                android:layout_toLeftOf="@+id/search_clea"
+                android:layout_toRightOf="@+id/search_icon"
+                android:background="@android:color/transparent"
+                android:hint="@string/search_input" />
+
+            <ImageButton
+                android:id="@+id/search_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/search_btn_close"
+                android:visibility="gone" />
+            
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="5dp"
+            android:background="#FF414042" />
+
+        <LinearLayout
+            android:id="@+id/layout_center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ExpandableListView
+                android:id="@+id/exlist"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:cacheColorHint="#00000000"
+                android:divider="#FF414042"
+                android:dividerHeight="1px" />
+
+            <ExpandableListView
+                android:id="@+id/child_list"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:cacheColorHint="#00000000"
+                android:divider="#FF414042"
+                android:dividerHeight="1px" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/search_LsitView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="#FF414042"
+            android:dividerHeight="1px"
+            android:visibility="gone" >
+        </ListView>
+
+        <include layout="@layout/contacts_detail" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/btl"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        layout="@layout/tabbar" />
+
+</RelativeLayout>

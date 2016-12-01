@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <org.cmaaio.view.laucher.XGallery
+            android:id="@+id/gallery_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadingEdgeLength="0dp"
+            android:fadingEdge="none" >
+        </org.cmaaio.view.laucher.XGallery>
+
+        <Button
+            android:id="@+id/startBtn"
+            android:layout_width="200dip"
+            android:layout_height="60dip"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="100dip"
+            android:background="@drawable/help_start_btn_selector"
+            android:text="@string/start_using"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/pageControl"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="15dip"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

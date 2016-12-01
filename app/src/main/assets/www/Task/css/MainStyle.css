@@ -1,0 +1,73 @@
+body { background: url(../img/backgroud2.jpg); background-repeat:repeat; font: 20px SimHei; margin: 0; }
+
+/* 正文页面样式 */
+.iPhoneAppFormTitle { margin: 5px ;  color: #4C566C; text-align:center; font:15px SimHei; }
+.iPhoneFormTitle { margin: 5px; font-size:15px; color: #4C566C; }
+.iPhoneFormContent { margin: 5px; line-height: 30px; -webkit-border-radius: 15px; 
+      -moz-border-radius: 15px; border:solid 1px #ABABAB; background: #fff; }
+.iPhoneFormContent font {color="red"; font-size:13px; }
+.iPhoneFormContentAlt { margin: 5px; line-height: 30px; font-size:13px;}
+
+.iPhoneFormTable { width: 100%; margin: 0px ; border-collapse: collapse;}
+.iPhoneFormTable tr { height: 30px; font-size:13px;}
+.iPhoneFormTable th { width: 30%; text-align: center; word-break:break-all; border-bottom:solid 1px #ABABAB; }
+.iPhoneFormTable td { width: 70%; word-break:break-all; border-bottom:solid 1px #ABABAB; }
+
+tr.topRow, tr.bottomRow { height: 30px; }
+tr.topRow th, tr.topRow td { border-top: none; }
+tr.bottomRow th, tr.bottomRow td { border-bottom: none; }
+
+div.topCorner, div.bottomCorner { height: 21px; border: none; font-size: 0px; border-collapse: collapse; }
+div.topCorner div.lt { width: 21px; height: 21px; float: left; background: transparent url(../img/lt.png) no-repeat left top; border: none; }
+div.topCorner div.ct { border: none; height: 19px; margin: 0 21px; border-top: solid 1px #ABABAB; background: #fff; }
+div.topCorner div.rt { width: 21px; height: 21px; float: right; background: transparent url(../img/rt.png) no-repeat right top; border: none; }
+div.bottomCorner div.lt { width: 21px; height: 21px; float: left; background: transparent url(../img/lb.png) no-repeat left top; border: none; }
+div.bottomCorner div.ct { border: none; height: 19px; margin: 0 21px; border-bottom: solid 1px #ABABAB; background: #fff; }
+div.bottomCorner div.rt { width: 21px; height: 21px; float: right; background: transparent url(../img/rb.png) no-repeat right top; border: none; }
+
+.blankDiv { width: 100%; height: 20px; }
+
+/* 曲面外框 */
+.topSurface, .bottomSurface { display: block; background: transparent; font-size: 1px; margin: 0px 50px 0px 50px; }
+.bottomSurface { margin-bottom: 20px; }
+
+.b1, .b2, .b3, .b4 { display: block; overflow: hidden; margin: 0px 50px 0px 50px; }
+.b1, .b2, .b3 { height: 1px; }
+.b2, .b3, .b4 { background: #fff; border-left: 1px solid #ababab; border-right: 1px solid #ababab; }
+.b1 { margin: 0 5px; background: #ababab; }
+.b2 { margin: 0 3px; border-width: 0 2px; }
+.b3 { margin: 0 2px; }
+.b4 { height: 2px; margin: 0 1px; }
+
+/* 通用流程表单样式 */
+.fullWidth { width: 100%; }
+
+.tableTh { width: 80px; text-align: center; }
+.tableThLeft { width: 80px; text-align: left; }
+
+.formTable { margin: 8px auto; border-collapse: collapse; text-align: left; width: 100%; }
+.formTable th, .formTable td { background: #fff; border: solid 1px #ababab; }
+.formTable thead th, .formTable thead td { text-align: center; color: #333; word-break:break-all;}
+.formTable tbody th, .formTable tbody td { word-break:break-all; }
+
+/* 审批列表界面样式 */
+
+.divUserNotice { font-size: 13px; font-weight: bold; color: #7d7e80; margin-top: 10px; font-family: Times New Roman; text-align:center; }
+
+.divRoleTitle { padding-left: 5px; padding-right: 5px; font-size: 15px; font-weight: bold; color: #7d7e80; margin-top: 10px; font-family: Times New Roman; }
+
+.signatureContent { -webkit-border-radius: 15px; -moz-border-radius: 15px; border:solid 1px #ABABAB; background: #fff; margin: 5px; line-height: 30px; font-size: 13px SimHei; }
+
+.signatureContent a:hover {font-size: 13px SimHei; }
+
+.signatureTR { height: 78px; font-size: 13px; font-family: Times New Roman; border:none; }
+
+.repeaterTable { border-bottom: none; padding-left: 10px; font-size: 13px; font-family: Times New Roman; }
+
+.repeaterLastTable {border-bottom:none; padding-left: 10px; font-size: 13px; font-family: Times New Roman; }
+
+/* 审批页面样式 */
+.txtAreaComment { width:99%; overflow: hidden; height: 100px; font-size: 13px;  -webkit-border-radius: 15px; 
+      -moz-border-radius: 15px; border:solid 1px #ABABAB; background: #fff; }
+
+.btnApproval { width: 60px; height: 40px; font-weight: bold; font-size: 15px; }
